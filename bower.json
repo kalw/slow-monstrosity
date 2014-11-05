@@ -1,0 +1,22 @@
+{
+  "name": "slow",
+  "version": "0.0.0",
+  "homepage": "https://github.com/skywritergr/slow-monstrosity",
+  "description": "A very slow webpage",
+  "main": "index.html",
+  "authors": [
+    "George Stefanis"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jqueryui": "~1.11.2",
+    "jquery": "~2.1.1"
+  }
+}
