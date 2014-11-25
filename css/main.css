@@ -1,7 +1,39 @@
-body {
-  padding-top: 50px;
+@font-face {
+    font-family: 'robotolight';
+    src: url('fonts/roboto-light.eot');
+    src: url('fonts/roboto-light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-light.woff2') format('woff2'),
+    url('../fonts/roboto-light.woff') format('woff'),
+    url('../fonts/roboto-light.ttf') format('truetype'),
+    url('../fonts/roboto-light.svg#robotolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
 }
+
+body {
+    padding-top: 50px;
+    line-height: 1.7em;
+    font-family: 'robotolight', 'sans-serif', 'arial' ;
+    font-size: 15px;
+    font-weight: bold;
+}
+
 .starter-template {
   padding: 40px 15px;
   text-align: center;
+}
+
+#bannerImg {
+    width: 80%;
+    margin-top: 0px;
+}
+
+p {
+    text-align: justify;
+    padding-top: 10px;
+}
+
+.sec-panel{
+
 }
