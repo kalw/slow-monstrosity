@@ -21,12 +21,17 @@ body {
 
 .starter-template {
   padding: 40px 15px;
-  text-align: center;
+}
+
+h1, h3 {
+    text-align: center;
 }
 
 #bannerImg {
     width: 80%;
-    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 p {
@@ -35,5 +40,9 @@ p {
 }
 
 .sec-panel{
+    height: 100%;
+}
+
+ul li {
 
 }
