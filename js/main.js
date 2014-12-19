@@ -13,5 +13,5 @@ $(document).ready(function(){
 		}).fail(function(){
 			$('#depressingTable tr').append('<tr><td>Something went wrong!</td><td> :( </td><td> :( </td><td> :( </td></tr>');
 		});
-	}, 7000);
+	}, 1400);
 });
